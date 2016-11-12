@@ -7,9 +7,14 @@ In this project, I will use neural networks  to classify traffic signs. Namely, 
 Dependencies
 This project requires Python 3.5 and the following Python libraries installed:
 
-Jupyter
-NumPy
-SciPy
-scikit-learn
-TensorFlow
+Jupyter,
+
+NumPy,
+
+SciPy,
+
+scikit-learn,
+
+TensorFlow,
+
 
