@@ -18247,7 +18247,7 @@ JKk0wyVJkiRJkiSVZrgkSZIkSZKk0gyXJEmSJEmSVNr/D5Q5gNY24LYcAAAAAElFTkSuQmCC
     <span class="n">X_train_t</span><span class="p">,</span>
     <span class="n">y_train</span><span class="p">,</span>
     <span class="n">test_size</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span>
-    <span class="n">random_state</span><span class="o">=</span><span class="mi">832289</span><span class="p">)</span>
+    <span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -18304,7 +18304,7 @@ JKk0wyVJkiRJkiSVZrgkSZIkSZKk0gyXJEmSJEmSVNr/D5Q5gNY24LYcAAAAAElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> For this problem I am using the <strong> multi-layer perceptron feedforward model</strong>. The neural network include <strong>2 layers</strong>, the size of the hidden layer, or the <strong>width of a layer is 512</strong>. Each layer include also <strong>RELU</strong> activation layer in order to include non linear components in the network.</p>
+<p><strong>Answer:</strong> For this problem I am using the <strong> multi-layer perceptron feedforward model</strong>. The neural network include <strong>2 layers</strong>, the size of the hidden layer, or the <strong>width of a layer is 512</strong>. Each layer include also <strong>RELU</strong> activation layer in order to include non linear components in the network. The input size is 3072, the output size is 43.</p>
 <p>The <strong>cost</strong> function is calculated using the <strong><a href="http://stackoverflow.com/questions/34240703/difference-between-tensorflow-tf-nn-softmax-and-tf-nn-softmax-cross-entropy-with">softmax_cross_entropy_with_logits</a></strong>.</p>
 <p><strong>Accuraccy</strong> is also being calculated.</p>
 <p>I also consider to use convolution network here because it seems more appropriate for this type of problem, the reason is that the sign might change the relative location of the image. However, I still struggling with how to implement that and I would like to get a feedback on this report before continue further.</p>
